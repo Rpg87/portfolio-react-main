@@ -8,7 +8,11 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 
 
-
+const composeComponent = (setLetterClass) => {
+    setTimeout(() => {
+        setLetterClass('text-animate-hover');
+    }, 3000);
+};
 
 
 
@@ -34,12 +38,9 @@ const Contact = () => {
     }
 
 
-
     useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 3000)
-    }, [])
+        composeComponent(setLetterClass);
+    }, []);
 
     return (
         <>

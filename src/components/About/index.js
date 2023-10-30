@@ -5,15 +5,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 
+const composeComponent = (setLetterClass) => {
+    setTimeout(() => {
+        setLetterClass('text-animate-hover');
+    }, 3000);
+};
+
 
 const About = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
+
+
     useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 3000)
-    }, [])
+        composeComponent(setLetterClass);
+    }, []);
 
 
     return (

@@ -10,7 +10,11 @@ import Loader from 'react-loaders';
 import TypeAnimation from '../TypeAni';
 import AnalogClock from './AnalogClock';
 
-
+const composeComponent = (setLetterClass) => {
+    setTimeout(() => {
+        setLetterClass('text-animate-hover');
+    }, 3000);
+};
 
 
 
@@ -37,10 +41,8 @@ const Home = () => {
     ]
 
     useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 3000)
-    }, [])
+        composeComponent(setLetterClass);
+    }, []);
 
 
 
