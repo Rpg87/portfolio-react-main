@@ -32,7 +32,7 @@ const About = () => {
                             strArray={['C', 'o', 'n', 'ó', 'c', 'e', 'm', 'e']}
                             idx={15} />
                     </h1>
-                    <p>Mi nombre es Raquel, un espíritu curioso que ha emprendido un emocionante viaje desde el mundo de los seguros a la apasionante carrera de desarrollo web.</p>  <p>Durante siete años, desempeñé un papel esencial en Línea Directa, ascendiendo mientras demostraba mi entusiasmo por el aprendizaje y la responsabilidad. Mi experiencia en liderazgo, comunicación efectiva y negociación me ha preparado para esta nueva etapa.</p>  <p>Ahora, como junior web developer, estoy comprometida a aplicar mis habilidades de resolución de problemas, autoaprendizaje y colaboración en proyectos web innovadores. ¡Estoy emocionada por explorar este emocionante nuevo capítulo en la tecnología y seguir creciendo en un entorno inspirador! </p>
+                    <p>Mi nombre es Raquel, un espíritu curioso que ha emprendido un emocionante viaje desde el mundo de los seguros a la apasionante carrera de desarrollo web.</p>  <p>Durante siete años, desempeñé un papel esencial en Línea Directa, ascendiendo mientras demostraba mi entusiasmo por el aprendizaje y la responsabilidad. Mi experiencia en liderazgo, comunicación efectiva y negociación me ha preparado para esta nueva etapa.</p>  <p>Ahora, como junior web developer, estoy comprometida a aplicar mis habilidades de resolución de problemas, autoaprendizaje y colaboración en proyectos web innovadores. ¡Estoy emocionada por explorar este increíble nuevo capítulo en la tecnología y seguir creciendo en un entorno inspirador! </p>
 
 
 
